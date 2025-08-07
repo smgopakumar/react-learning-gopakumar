@@ -1,0 +1,50 @@
+/* src/components/ProfileCard.css */
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card h4 {
+  margin: 5px 0;
+  font-weight: normal;
+  color: #666;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.card .button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.card .button:hover {
+  background-color: #0056b3;
+}
