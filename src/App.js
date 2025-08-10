@@ -6,18 +6,18 @@ import ImageCard from './imageCard';
 import WelcomeOne from './welcomeOne';
 import WelcomeTwo from './welcomeTwo';
 import ProfileCardOne from './profileCardOne';
+import ProfileCardTwo from './profileCardTwo';
+
+function Button(props) {
+  return <button onClick={props.onClick}>Click me</button>;
+}
 
 function App() {
-  return (
-    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
-      <Welcome />
-      < ProfileCard />
-      <ImageCard />
-      <WelcomeOne name="Gopkaumar" />
-      <WelcomeTwo name="Paul" />
-      <ProfileCardOne name="John Doe" age="30" location="New York" imageUrl="https://via.placeholder.com/150" />
-    </div>
-  );
+  const handleClick = () => alert("Button clicked!");
+
+  return <Button onClick={handleClick} />;
 }
+
+
 
 export default App;
