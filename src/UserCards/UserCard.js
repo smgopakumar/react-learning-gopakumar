@@ -1,16 +1,17 @@
 import { useState } from "react";
+import "./UserCard.css"; // import the CSS
 
 
-function UserCard({name,role}) {
+function UserCard({name,email}) {
 
   const [likes, setlikes] = useState(0);
 
   return (
     <div className="user-card">
       <h2>{name}</h2>
-      <p>Role: {role}</p>
-      <button onClick={() => setlikes(likes+1)}>👍 Like</button>
-      <p>Likes : {likes}</p>
+      <p>Email: {email}</p>
+      <button className="like-button" onClick={() => setlikes(likes+1)}>👍 Like</button>
+      <p className="likes-count">Likes : {likes}</p>
     </div>
   );
 

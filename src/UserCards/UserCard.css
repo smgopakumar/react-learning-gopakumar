@@ -1,0 +1,45 @@
+.user-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 12px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+}
+
+.user-card h3 {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.user-card p {
+  color: #666;
+  margin: 4px 0;
+}
+
+.like-button {
+  background-color: #ff4b5c;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.like-button:hover {
+  background-color: #e43f50;
+}
+
+.likes-count {
+  margin-top: 6px;
+  font-weight: bold;
+  color: #444;
+}
