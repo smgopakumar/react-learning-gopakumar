@@ -10,6 +10,7 @@ import ProfileCardTwo from './profileCardTwo';
 import UserCard from './UserCard';
 import ButtonClick from './ButtonClick';
 import { useState } from 'react';
+import Counter from './components/Counter';
 
 // function Button(props) {
 //   return <button onClick={props.onClick}>Click me</button>;
@@ -53,12 +54,19 @@ import { useState } from 'react';
 
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
-  const increase = () => {
-    setCount(count +1);
-  }
-  return (<ButtonClick onClick={increase} label={`Count: ${count}`} />);
+  // const increase = () => {
+  //   setCount(count +1);
+  // }
+  // return (<ButtonClick onClick={increase} label={`Count: ${count}`} />);
+  // return (
+  //   <div style={{ fontFamily: "system-ui, sans-serif", padding: 20 }}>
+  //     <h1>Counter App</h1>
+  //     <Counter />
+  //   </div>
+  // );
+
 }
 
 
