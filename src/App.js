@@ -11,6 +11,8 @@ import UserCard from './UserCard';
 import ButtonClick from './ButtonClick';
 import { useState } from 'react';
 import Counter from './components/Counter';
+import SimpleForm from './components/SimpleForm';
+import LikeButton from './components/LikeButton';
 
 // function Button(props) {
 //   return <button onClick={props.onClick}>Click me</button>;
@@ -66,6 +68,23 @@ function App() {
   //     <Counter />
   //   </div>
   // );
+
+  // return (
+  //   <div style={{ fontFamily: "system-ui, sans-serif", padding: 20 }}>
+  //     <h1>Simple Form Example</h1>
+  //     <SimpleForm />
+  //     {/* <h2>Counter Example</h2>
+  //     <Counter /> */}
+  //   </div>
+  // );
+return (
+    <div style={{ padding: 20 }}>
+      <h1>Task 3: Like Button</h1>
+      <LikeButton/>
+    </div>
+  );
+
+
 
 }
 
